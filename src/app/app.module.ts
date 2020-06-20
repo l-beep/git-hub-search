@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubserachComponent } from './githubserach/githubserach.component';
 import { CiustomPipe } from './ciustom.pipe';
+import { CustomDirective } from './custom.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubserachComponent,
-    CiustomPipe
+    CiustomPipe,
+    CustomDirective
   ],
   imports: [
     BrowserModule,
