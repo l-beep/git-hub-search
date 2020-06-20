@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubserachComponent } from './githubserach/githubserach.component';
+import { CiustomPipe } from './ciustom.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GithubserachComponent
+    GithubserachComponent,
+    CiustomPipe
   ],
   imports: [
     BrowserModule,
