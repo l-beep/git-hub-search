@@ -8,6 +8,7 @@ import { CiustomPipe } from './ciustom.pipe';
 import { CustomDirective } from './custom.directive';
 import { GithubsearchDetailsComponent } from './githubsearch-details/githubsearch-details.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
+import { UnfoundComponent } from './unfound/unfound.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     CiustomPipe,
     CustomDirective,
     GithubsearchDetailsComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    UnfoundComponent
   ],
   imports: [
     BrowserModule,
