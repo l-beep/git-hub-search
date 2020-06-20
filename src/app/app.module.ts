@@ -7,6 +7,7 @@ import { GithubserachComponent } from './githubserach/githubserach.component';
 import { CiustomPipe } from './ciustom.pipe';
 import { CustomDirective } from './custom.directive';
 import { GithubsearchDetailsComponent } from './githubsearch-details/githubsearch-details.component';
+import { RepositoriesComponent } from './repositories/repositories.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GithubsearchDetailsComponent } from './githubsearch-details/githubsearc
     GithubserachComponent,
     CiustomPipe,
     CustomDirective,
-    GithubsearchDetailsComponent
+    GithubsearchDetailsComponent,
+    RepositoriesComponent
   ],
   imports: [
     BrowserModule,
