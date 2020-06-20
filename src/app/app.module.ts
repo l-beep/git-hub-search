@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { GithubserachComponent } from './githubserach/githubserach.component';
 import { CiustomPipe } from './ciustom.pipe';
 import { CustomDirective } from './custom.directive';
+import { GithubsearchDetailsComponent } from './githubsearch-details/githubsearch-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubserachComponent,
     CiustomPipe,
-    CustomDirective
+    CustomDirective,
+    GithubsearchDetailsComponent
   ],
   imports: [
     BrowserModule,
