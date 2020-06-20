@@ -10,6 +10,7 @@ import { GithubsearchDetailsComponent } from './githubsearch-details/githubsearc
 import { RepositoriesComponent } from './repositories/repositories.component';
 import { UnfoundComponent } from './unfound/unfound.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { EndUsersComponent } from './end-users/end-users.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SearchFormComponent } from './search-form/search-form.component';
     GithubsearchDetailsComponent,
     RepositoriesComponent,
     UnfoundComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    EndUsersComponent
   ],
   imports: [
     BrowserModule,
