@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { DisplayResultsComponent } from './display-results/display-results.component';
 import { GitHubSearchFormComponent } from './git-hub-search-form/git-hub-search-form.component';
+import { DateCountPipe } from './date-count.pipe';
 =======
 import { GithubserachComponent } from './githubserach/githubserach.component';
 import { CiustomPipe } from './ciustom.pipe';
@@ -24,7 +25,8 @@ import { EndUsersComponent } from './end-users/end-users.component';
 <<<<<<< HEAD
     SearchComponent,
     DisplayResultsComponent,
-    GitHubSearchFormComponent
+    GitHubSearchFormComponent,
+    DateCountPipe
 =======
     GithubserachComponent,
     CiustomPipe,

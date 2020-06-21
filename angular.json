@@ -3,11 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
+
     "git-hub-search": {
-=======
-    "githubsearch": {
->>>>>>> 80ab15f95813ed3f0367352f4071df832a56d098
+
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,11 +15,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
+
             "outputPath": "dist/git-hub-search",
-=======
-            "outputPath": "dist/githubsearch",
->>>>>>> 80ab15f95813ed3f0367352f4071df832a56d098
+
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -70,30 +66,22 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-<<<<<<< HEAD
+
             "browserTarget": "git-hub-search:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "git-hub-search:build:production"
-=======
-            "browserTarget": "githubsearch:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "githubsearch:build:production"
->>>>>>> 80ab15f95813ed3f0367352f4071df832a56d098
+
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
+
             "browserTarget": "git-hub-search:build"
-=======
-            "browserTarget": "githubsearch:build"
->>>>>>> 80ab15f95813ed3f0367352f4071df832a56d098
+
           }
         },
         "test": {
@@ -130,27 +118,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-<<<<<<< HEAD
+
             "devServerTarget": "git-hub-search:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "git-hub-search:serve:production"
-=======
-            "devServerTarget": "githubsearch:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "githubsearch:serve:production"
->>>>>>> 80ab15f95813ed3f0367352f4071df832a56d098
+
             }
           }
         }
       }
     }},
-<<<<<<< HEAD
+
   "defaultProject": "git-hub-search"
-=======
-  "defaultProject": "githubsearch"
->>>>>>> 80ab15f95813ed3f0367352f4071df832a56d098
+
 }
