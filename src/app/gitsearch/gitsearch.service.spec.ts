@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GitHubSearchService } from './git-hub-search.service';
+import { GitsearchService } from './gitsearch.service';
 
-describe('GitHubSearchService', () => {
-  let service: GitHubSearchService;
+describe('GitsearchService', () => {
+  let service: GitsearchService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(GitHubSearchService);
+    service = TestBed.inject(GitsearchService);
   });
 
   it('should be created', () => {

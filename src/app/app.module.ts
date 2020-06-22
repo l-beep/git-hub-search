@@ -8,6 +8,9 @@ import { SearchComponent } from './search/search.component';
 import { DisplayResultsComponent } from './display-results/display-results.component';
 import { GitHubSearchFormComponent } from './git-hub-search-form/git-hub-search-form.component';
 import { DateCountPipe } from './date-count.pipe';
+import { GitsearchComponent } from './gitsearch/gitsearch.component';
+import { GitsearchFormComponent } from './gitsearch-form/gitsearch-form.component';
+import { ColourDirective } from './colour.directive';
 =======
 import { GithubserachComponent } from './githubserach/githubserach.component';
 import { CiustomPipe } from './ciustom.pipe';
@@ -26,7 +29,10 @@ import { EndUsersComponent } from './end-users/end-users.component';
     SearchComponent,
     DisplayResultsComponent,
     GitHubSearchFormComponent,
-    DateCountPipe
+    DateCountPipe,
+    GitsearchComponent,
+    GitsearchFormComponent,
+    ColourDirective
 =======
     GithubserachComponent,
     CiustomPipe,

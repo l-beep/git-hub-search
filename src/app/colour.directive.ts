@@ -1,9 +1,9 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appCustom]'
+  selector: '[appColour]'
 })
-export class CustomDirective {
+export class ColourDirective {
 
   constructor() { }
 

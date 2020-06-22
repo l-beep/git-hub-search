@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DisplayResultsComponent } from './display-results.component';
+import { GitsearchComponent } from './gitsearch.component';
 
-describe('DisplayResultsComponent', () => {
-  let component: DisplayResultsComponent;
-  let fixture: ComponentFixture<DisplayResultsComponent>;
+describe('GitsearchComponent', () => {
+  let component: GitsearchComponent;
+  let fixture: ComponentFixture<GitsearchComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DisplayResultsComponent ]
+      declarations: [ GitsearchComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DisplayResultsComponent);
+    fixture = TestBed.createComponent(GitsearchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
