@@ -1,9 +1,7 @@
 {
-<<<<<<< HEAD
+
   "name": "git-hub-search",
-=======
-  "name": "githubsearch",
->>>>>>> 80ab15f95813ed3f0367352f4071df832a56d098
+
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

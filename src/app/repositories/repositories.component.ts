@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {Repository} from 'src/app/repository';
-import {User} from 'src/app/user';
-import { GitsearcherService } from 'src/app/Gitsearch/gitsearcher.service'
-import { git-hub-search-formComponent } from 'src/app/git-hub-search-form/git-hub-search-form.component';
-import { GitsearchComponent } from 'src/app/gitsearch/git-search.component';
+import {Users} from 'src/app/users';
+import { GitsearcherService } from 'src/app/gitsearcher.service'
+import { GitsearchFormComponent } from 'src/app/gitsearch-form/gitsearch-form.component';
+import { GitsearchComponent } from 'src/app/gitsearch/gitsearch.component';
 import { AppComponent } from 'src/app/app.component';
 import {FormsModule} from '@angular/forms';
 
@@ -32,4 +32,5 @@ findUser(){
 
 }
 }
+
 
