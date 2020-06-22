@@ -1,6 +1,6 @@
 <div class="try">
     <div class="banner">
-      <img src="/assets/gitlogo.png" alt="Github Logo">
+        <h1>GithubSearch</h1>
       <nav>
   
         <p appColour><a routerLink='/repositories' routerLinkActive='active'>Repositories</a></p>
@@ -57,7 +57,7 @@
   
   
     <div *ngFor="let repo of repos">
-      <div class="stylerepos">
+      <div class="card">
         <h5>{{repo.name}}</h5>
         <p>{{repo.description}}</p><a href="{{repo.html_url}}" target="_blank">View on Github</a>
       </div>

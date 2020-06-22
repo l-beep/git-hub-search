@@ -14,7 +14,7 @@
   }
   
    .banner{
-    background-color: black;
+    background-color: rgb(228, 212, 212);
     height: 70px;
   }
   .banner img{
@@ -79,7 +79,7 @@
   .Forms h1 {
     margin: 10px 0 0;
     font-size: 5.5rem;
-    color: white;
+    color: black;
     letter-spacing: -4px;
     text-shadow: 1px 1px rgb(207, 128, 128);
   
@@ -127,14 +127,4 @@
   span{
     padding-left: 5px;
   }
-  .arrow {
-      position: absolute;
-      margin-top: 150px;
-      text-align: center;
-      left: 50%;
-      transform: translate(-50);
-      color: White;
-      font-size: 3em;
-      font-weight: 900;
-      animation: 0.2s change infinite;
-  }
+ 
